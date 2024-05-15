@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS estudiantes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255),
+    apellidos VARCHAR(255),
+    sseminarios INT,
+    confirmado BOOLEAN,
+    fecha_inscripcion VARCHAR(255)
+);
+INSERT INTO estudiantes (nombre, apellidos, sseminarios, confirmado, fecha_inscripcion) 
+VALUES 
+('gudalupe', 'Pérez', 2, true, '2024-05-14'),
+('guadalupe', 'flores', 1, false, '2024-05-15');
